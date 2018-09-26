@@ -122,7 +122,17 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+
+#  To upload images
+MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+MEDIA_URL = '/media/'
+
+# To Design login in and logout page builtin
+
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+
+
 
 LOGIN_REDIRECT_URL = 'blog-home'
 
